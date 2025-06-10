@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site do Spotify com telas de Populares e Favoritos">
+  <title>Spotify - Populares e Favoritos</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" alt="Logo Spotify">
+    <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+
+    <nav class="menu">
+      <a href="#populares">Populares</a>
+      <a href="#favoritos">Favoritos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="populares">
+      <h2>Populares</h2>
+      <div class="card-container">
+        <article class="card"><img src="https://i.scdn.co/image/ab67616d0000b2733179b1ecbfe6dbd5bcce0df9" alt="Artista 1"><p>Você não sabe amar - Chico Rey e Paraná</p></article>
+        <article class="card"><img src="https://i.scdn.co/image/ab6761610000e5eb26c5c8d56a8979c644f37de7" alt="Artista 2"><p>Caminheiro - Milionário e José Rico</p></article>
+        <article class="card"><img src="https://yt3.googleusercontent.com/m9bHWljEUetmKIxERImX17g8hiWMxksQO_GfD5rTnPoIr6WpYiFazjwsozZBbQno3L4qne2lDg=s900-c-k-c0x00ffffff-no-rj" alt="Artista 3"><p>Anestesiado - Murilo Huff</p></article>
+        <article class="card"><img src="https://i.scdn.co/image/ab67616d0000b273f9de7cd40e4860c43f20f8dd" alt="Artista 4"><p>As paredes Azuis - João Mineiro e Marciano</p></article>
+        <article class="card"><img src="https://veja.abril.com.br/wp-content/uploads/2017/02/victor-e-leo-20151214-006.jpg?crop=1&resize=1212,909" alt="Artista 5"><p>Borboletas - Victor e Leo</p></article>
+      </div>
+    </section>
+
+    <section id="favoritos">
+      <h2>Favoritos</h2>
+      <div class="card-container">
+        <article class="card"><img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/04/29/769370711-d170e9b25ee83cf4-1400x823-2.png" alt="Artista 1"><p>Seu amor ainda é tudo - Leonardo</p></article>
+        <article class="card"><img src="https://i.pinimg.com/736x/96/4f/26/964f26adbc2e0fe9c71a26602ed60022.jpg" alt="Artista 2"><p>Amor de violeiro - Eduardo Costa</p></article>
+        <article class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Reginaldo_Rossi_na_pra%C3%A7a_Castro_Alves.jpg" alt="Artista 3"><p>Doce Pecado - Reginaldo Rossi</p></article>
+        <article class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAQBLtmKq-fGqygvB503N5_22CTf0q-ge4mfakXC2AC0SBS4A3zrREEK2nSDCir3MVB_nY7q_8EJa7LSd5L0tKoX4a7XkqUllABp5Pmw" alt="Artista 4"><p>Recompensa de um milhão - Nattanzinho Lima</p></article>
+        <article class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP0w6RXxjGmTFGk3jFCEjtIF2RhzDNgNxacw&s" alt="Artista 5"><p>24 Horas de amor - Bruno e Marrone</p></article>
+        <article class="card"><img src="https://recantocaipira.com.br/duplas/matogrosso_mathias/matogrosso_mathias.jpg" alt="Artista 6"><p>O Matuto - Matogrosso e Mathias</p></article>
+        <article class="card"><img src="https://cdn-images.dzcdn.net/images/artist/5c1df48f834f52e9d7fb0a930963a766/1900x1900-000000-80-0-0.jpg" alt="Artista 7"><p>Nada Mudou - Di Paullo & Paulino</p></article>
+      </div>
+    </section>
+  </main>
+
+
+
+</body>
+
+<script>
+  const toggleBtn = document.querySelector('.menu-toggle');
+  const navMenu = document.querySelector('nav.menu');
+
+  toggleBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+</script>
+</html>
