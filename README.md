@@ -27,7 +27,7 @@ Este é um site simples inspirado no Spotify, com duas telas principais:
 1. Clone ou baixe este repositório.
 2. Abra o arquivo `index.html` no seu navegador favorito.
 3. Aproveite o site!
-4. Site completamente responsivo, então acesse o link para acessar no seu celular:
+4. Site completamente responsivo, então acesse o link para acessar no seu celular: https://clonespotifygui.netlify.app/
 
 ---
 
