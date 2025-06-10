@@ -18,6 +18,7 @@ Este é um site simples inspirado no Spotify, com duas telas principais:
 - HTML semântico
 - CSS com Flexbox
 - Animações simples
+- Media Queries para responsividade
 
 ---
 
@@ -26,6 +27,7 @@ Este é um site simples inspirado no Spotify, com duas telas principais:
 1. Clone ou baixe este repositório.
 2. Abra o arquivo `index.html` no seu navegador favorito.
 3. Aproveite o site!
+4. Site completamente responsivo, então acesse o link para acessar no seu celular:
 
 ---
 
